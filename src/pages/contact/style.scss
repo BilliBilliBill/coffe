@@ -1,0 +1,11 @@
+
+.gradient-text {
+  background: linear-gradient(to right, #FFCC00, #FF6600); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(225, 182, 10, 0.815); 
+  font-family: 'Arial', sans-serif; 
+  font-size: 3rem;
+  font-weight: bold; 
+}

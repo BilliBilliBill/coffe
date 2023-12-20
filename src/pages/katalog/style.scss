@@ -1,0 +1,53 @@
+
+
+.promotion-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255); 
+z-Index: 2 ;
+background: 'transparent'; }
+
+
+
+
+.promotion-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000; 
+}
+
+
+.card {
+  border: none; 
+  z-Index: 2 ;
+background: 'transparent';
+}
+
+.custom-card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  
+
+  &:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 1.5rem;
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+
